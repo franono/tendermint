@@ -2,6 +2,7 @@
 
 ![banner](docs/tendermint-core-image.jpg)
 
+
 [Byzantine-Fault Tolerant](https://en.wikipedia.org/wiki/Byzantine_fault_tolerance)
 [State Machines](https://en.wikipedia.org/wiki/State_machine_replication).
 Or [Blockchain](<https://en.wikipedia.org/wiki/Blockchain_(database)>), for short.
