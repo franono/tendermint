@@ -130,7 +130,6 @@ func newPeer(
 	onPeerError func(Peer, interface{}),
 	options ...PeerOption,
 ) *peer {
-	for{
 	p := &peer{
 		peerConn:      pc,
 		nodeInfo:      nodeInfo,
@@ -140,6 +139,7 @@ func newPeer(
 		metrics:       NopMetrics(),
 	}
 
+	for{
 	p.mconn = createMConnection(
 		pc.conn,
 		p,
