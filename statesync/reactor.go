@@ -5,11 +5,11 @@ import (
 	"sort"
 	"sync"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/proxy"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/franono/tendermint/abci/types"
+	"github.com/franono/tendermint/p2p"
+	"github.com/franono/tendermint/proxy"
+	sm "github.com/franono/tendermint/state"
+	"github.com/franono/tendermint/types"
 )
 
 const (

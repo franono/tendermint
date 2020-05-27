@@ -8,13 +8,13 @@ import (
 	"sync"
 	"time"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/proxy"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
-	"github.com/tendermint/tendermint/version"
+	abci "github.com/franono/tendermint/abci/types"
+	"github.com/franono/tendermint/libs/log"
+	"github.com/franono/tendermint/p2p"
+	"github.com/franono/tendermint/proxy"
+	sm "github.com/franono/tendermint/state"
+	"github.com/franono/tendermint/types"
+	"github.com/franono/tendermint/version"
 )
 
 const (

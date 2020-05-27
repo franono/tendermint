@@ -12,18 +12,18 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/tendermint/tendermint/abci/types"
+	abci "github.com/franono/tendermint/abci/types"
 
-	"github.com/tendermint/tendermint/libs/log"
-	tmmath "github.com/tendermint/tendermint/libs/math"
-	mempl "github.com/tendermint/tendermint/mempool"
-	"github.com/tendermint/tendermint/rpc/client"
-	rpchttp "github.com/tendermint/tendermint/rpc/client/http"
-	rpclocal "github.com/tendermint/tendermint/rpc/client/local"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	rpcclient "github.com/tendermint/tendermint/rpc/jsonrpc/client"
-	rpctest "github.com/tendermint/tendermint/rpc/test"
-	"github.com/tendermint/tendermint/types"
+	"github.com/franono/tendermint/libs/log"
+	tmmath "github.com/franono/tendermint/libs/math"
+	mempl "github.com/franono/tendermint/mempool"
+	"github.com/franono/tendermint/rpc/client"
+	rpchttp "github.com/franono/tendermint/rpc/client/http"
+	rpclocal "github.com/franono/tendermint/rpc/client/local"
+	ctypes "github.com/franono/tendermint/rpc/core/types"
+	rpcclient "github.com/franono/tendermint/rpc/jsonrpc/client"
+	rpctest "github.com/franono/tendermint/rpc/test"
+	"github.com/franono/tendermint/types"
 )
 
 func getHTTPClient() *rpchttp.HTTP {

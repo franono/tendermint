@@ -5,13 +5,13 @@ import (
 
 	"github.com/spf13/cobra"
 
-	cfg "github.com/tendermint/tendermint/config"
-	tmos "github.com/tendermint/tendermint/libs/os"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/privval"
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	cfg "github.com/franono/tendermint/config"
+	tmos "github.com/franono/tendermint/libs/os"
+	tmrand "github.com/franono/tendermint/libs/rand"
+	"github.com/franono/tendermint/p2p"
+	"github.com/franono/tendermint/privval"
+	"github.com/franono/tendermint/types"
+	tmtime "github.com/franono/tendermint/types/time"
 )
 
 // InitFilesCmd initialises a fresh Tendermint Core instance.

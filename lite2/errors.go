@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tendermint/tendermint/lite2/provider"
-	"github.com/tendermint/tendermint/types"
+	"github.com/franono/tendermint/lite2/provider"
+	"github.com/franono/tendermint/types"
 )
 
 // ErrOldHeaderExpired means the old (trusted) header has expired according to

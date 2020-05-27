@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tendermint/tendermint/crypto"
-	ce "github.com/tendermint/tendermint/crypto/encoding"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	tmproto "github.com/tendermint/tendermint/proto/types"
+	"github.com/franono/tendermint/crypto"
+	ce "github.com/franono/tendermint/crypto/encoding"
+	tmrand "github.com/franono/tendermint/libs/rand"
+	tmproto "github.com/franono/tendermint/proto/types"
 )
 
 // Volatile state for each Validator

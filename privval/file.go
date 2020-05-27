@@ -7,13 +7,13 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	tmbytes "github.com/tendermint/tendermint/libs/bytes"
-	tmos "github.com/tendermint/tendermint/libs/os"
-	"github.com/tendermint/tendermint/libs/tempfile"
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	"github.com/franono/tendermint/crypto"
+	"github.com/franono/tendermint/crypto/ed25519"
+	tmbytes "github.com/franono/tendermint/libs/bytes"
+	tmos "github.com/franono/tendermint/libs/os"
+	"github.com/franono/tendermint/libs/tempfile"
+	"github.com/franono/tendermint/types"
+	tmtime "github.com/franono/tendermint/types/time"
 )
 
 // TODO: type ?

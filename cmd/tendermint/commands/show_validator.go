@@ -5,8 +5,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	tmos "github.com/tendermint/tendermint/libs/os"
-	"github.com/tendermint/tendermint/privval"
+	tmos "github.com/franono/tendermint/libs/os"
+	"github.com/franono/tendermint/privval"
 )
 
 // ShowValidatorCmd adds capabilities for showing the validator info.

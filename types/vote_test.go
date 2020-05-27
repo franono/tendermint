@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/crypto/tmhash"
+	"github.com/franono/tendermint/crypto"
+	"github.com/franono/tendermint/crypto/ed25519"
+	"github.com/franono/tendermint/crypto/tmhash"
 )
 
 func examplePrevote() *Vote {

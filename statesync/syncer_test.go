@@ -10,16 +10,16 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/p2p"
-	p2pmocks "github.com/tendermint/tendermint/p2p/mocks"
-	"github.com/tendermint/tendermint/proxy"
-	proxymocks "github.com/tendermint/tendermint/proxy/mocks"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/statesync/mocks"
-	"github.com/tendermint/tendermint/types"
-	"github.com/tendermint/tendermint/version"
+	abci "github.com/franono/tendermint/abci/types"
+	"github.com/franono/tendermint/libs/log"
+	"github.com/franono/tendermint/p2p"
+	p2pmocks "github.com/franono/tendermint/p2p/mocks"
+	"github.com/franono/tendermint/proxy"
+	proxymocks "github.com/franono/tendermint/proxy/mocks"
+	sm "github.com/franono/tendermint/state"
+	"github.com/franono/tendermint/statesync/mocks"
+	"github.com/franono/tendermint/types"
+	"github.com/franono/tendermint/version"
 )
 
 // Sets up a basic syncer that can be used to test OfferSnapshot requests

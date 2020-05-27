@@ -6,11 +6,11 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/tendermint/tendermint/libs/log"
-	lite "github.com/tendermint/tendermint/lite2"
-	"github.com/tendermint/tendermint/lite2/provider"
-	mockp "github.com/tendermint/tendermint/lite2/provider/mock"
-	dbs "github.com/tendermint/tendermint/lite2/store/db"
+	"github.com/franono/tendermint/libs/log"
+	lite "github.com/franono/tendermint/lite2"
+	"github.com/franono/tendermint/lite2/provider"
+	mockp "github.com/franono/tendermint/lite2/provider/mock"
+	dbs "github.com/franono/tendermint/lite2/store/db"
 )
 
 // NOTE: block is produced every minute. Make sure the verification time

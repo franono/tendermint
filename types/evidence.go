@@ -9,11 +9,11 @@ import (
 
 	amino "github.com/tendermint/go-amino"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/merkle"
-	"github.com/tendermint/tendermint/crypto/tmhash"
-	tmmath "github.com/tendermint/tendermint/libs/math"
-	tmproto "github.com/tendermint/tendermint/proto/types"
+	"github.com/franono/tendermint/crypto"
+	"github.com/franono/tendermint/crypto/merkle"
+	"github.com/franono/tendermint/crypto/tmhash"
+	tmmath "github.com/franono/tendermint/libs/math"
+	tmproto "github.com/franono/tendermint/proto/types"
 )
 
 const (
@@ -1086,7 +1086,7 @@ func (e PotentialAmnesiaEvidence) ValidateBasic() error {
 	}
 
 	// Index must be the same
-	// https://github.com/tendermint/tendermint/issues/4619
+	// https://github.com/franono/tendermint/issues/4619
 	if e.VoteA.ValidatorIndex != e.VoteB.ValidatorIndex {
 		return fmt.Errorf(
 			"duplicateVoteEvidence Error: Validator indices do not match. Got %d and %d",

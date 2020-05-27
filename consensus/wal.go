@@ -10,12 +10,12 @@ import (
 
 	amino "github.com/tendermint/go-amino"
 
-	auto "github.com/tendermint/tendermint/libs/autofile"
-	"github.com/tendermint/tendermint/libs/log"
-	tmos "github.com/tendermint/tendermint/libs/os"
-	"github.com/tendermint/tendermint/libs/service"
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	auto "github.com/franono/tendermint/libs/autofile"
+	"github.com/franono/tendermint/libs/log"
+	tmos "github.com/franono/tendermint/libs/os"
+	"github.com/franono/tendermint/libs/service"
+	"github.com/franono/tendermint/types"
+	tmtime "github.com/franono/tendermint/types/time"
 )
 
 const (

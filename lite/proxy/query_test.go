@@ -9,15 +9,15 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tendermint/abci/example/kvstore"
-	"github.com/tendermint/tendermint/crypto/merkle"
-	"github.com/tendermint/tendermint/lite"
-	certclient "github.com/tendermint/tendermint/lite/client"
-	nm "github.com/tendermint/tendermint/node"
-	"github.com/tendermint/tendermint/rpc/client"
-	rpclocal "github.com/tendermint/tendermint/rpc/client/local"
-	rpctest "github.com/tendermint/tendermint/rpc/test"
-	"github.com/tendermint/tendermint/types"
+	"github.com/franono/tendermint/abci/example/kvstore"
+	"github.com/franono/tendermint/crypto/merkle"
+	"github.com/franono/tendermint/lite"
+	certclient "github.com/franono/tendermint/lite/client"
+	nm "github.com/franono/tendermint/node"
+	"github.com/franono/tendermint/rpc/client"
+	rpclocal "github.com/franono/tendermint/rpc/client/local"
+	rpctest "github.com/franono/tendermint/rpc/test"
+	"github.com/franono/tendermint/types"
 )
 
 var node *nm.Node

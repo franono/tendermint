@@ -9,10 +9,10 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/tendermint/tendermint/abci/types"
-	tmlog "github.com/tendermint/tendermint/libs/log"
-	tmnet "github.com/tendermint/tendermint/libs/net"
-	"github.com/tendermint/tendermint/libs/service"
+	"github.com/franono/tendermint/abci/types"
+	tmlog "github.com/franono/tendermint/libs/log"
+	tmnet "github.com/franono/tendermint/libs/net"
+	"github.com/franono/tendermint/libs/service"
 )
 
 // var maxNumberConnections = 2

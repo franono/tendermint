@@ -7,10 +7,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/crypto/tmhash"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
+	"github.com/franono/tendermint/crypto"
+	"github.com/franono/tendermint/crypto/ed25519"
+	"github.com/franono/tendermint/crypto/tmhash"
+	tmrand "github.com/franono/tendermint/libs/rand"
 )
 
 type voteData struct {

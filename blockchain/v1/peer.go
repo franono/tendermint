@@ -5,10 +5,10 @@ import (
 	"math"
 	"time"
 
-	flow "github.com/tendermint/tendermint/libs/flowrate"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/types"
+	flow "github.com/franono/tendermint/libs/flowrate"
+	"github.com/franono/tendermint/libs/log"
+	"github.com/franono/tendermint/p2p"
+	"github.com/franono/tendermint/types"
 )
 
 //--------

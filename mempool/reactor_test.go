@@ -11,13 +11,13 @@ import (
 	"github.com/go-kit/kit/log/term"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/tendermint/tendermint/abci/example/kvstore"
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/p2p/mock"
-	"github.com/tendermint/tendermint/proxy"
-	"github.com/tendermint/tendermint/types"
+	"github.com/franono/tendermint/abci/example/kvstore"
+	cfg "github.com/franono/tendermint/config"
+	"github.com/franono/tendermint/libs/log"
+	"github.com/franono/tendermint/p2p"
+	"github.com/franono/tendermint/p2p/mock"
+	"github.com/franono/tendermint/proxy"
+	"github.com/franono/tendermint/types"
 )
 
 const (

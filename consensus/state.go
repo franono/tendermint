@@ -9,18 +9,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tendermint/tendermint/libs/fail"
-	"github.com/tendermint/tendermint/libs/log"
-	tmos "github.com/tendermint/tendermint/libs/os"
-	"github.com/tendermint/tendermint/libs/service"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	"github.com/franono/tendermint/libs/fail"
+	"github.com/franono/tendermint/libs/log"
+	tmos "github.com/franono/tendermint/libs/os"
+	"github.com/franono/tendermint/libs/service"
+	tmtime "github.com/franono/tendermint/types/time"
 
-	cfg "github.com/tendermint/tendermint/config"
-	cstypes "github.com/tendermint/tendermint/consensus/types"
-	tmevents "github.com/tendermint/tendermint/libs/events"
-	"github.com/tendermint/tendermint/p2p"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
+	cfg "github.com/franono/tendermint/config"
+	cstypes "github.com/franono/tendermint/consensus/types"
+	tmevents "github.com/franono/tendermint/libs/events"
+	"github.com/franono/tendermint/p2p"
+	sm "github.com/franono/tendermint/state"
+	"github.com/franono/tendermint/types"
 )
 
 //-----------------------------------------------------------------------------
@@ -720,7 +720,7 @@ func (cs *State) handleMsg(mi msgInfo) {
 		// We probably don't want to stop the peer here. The vote does not
 		// necessarily comes from a malicious peer but can be just broadcasted by
 		// a typical peer.
-		// https://github.com/tendermint/tendermint/issues/1281
+		// https://github.com/franono/tendermint/issues/1281
 		// }
 
 		// NOTE: the vote is broadcast to peers by the reactor listening
@@ -1758,7 +1758,7 @@ func (cs *State) tryAddVote(vote *types.Vote, peerID p2p.ID) (bool, error) {
 			// 1) bad peer OR
 			// 2) not a bad peer? this can also err sometimes with "Unexpected step" OR
 			// 3) tmkms use with multiple validators connecting to a single tmkms instance
-			// 		(https://github.com/tendermint/tendermint/issues/3839).
+			// 		(https://github.com/franono/tendermint/issues/3839).
 			cs.Logger.Info("Error attempting to add vote", "err", err)
 			return added, ErrAddingVote
 		}

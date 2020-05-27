@@ -1,8 +1,8 @@
 package proxy
 
 import (
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/version"
+	abci "github.com/franono/tendermint/abci/types"
+	"github.com/franono/tendermint/version"
 )
 
 // RequestInfo contains all the information for sending

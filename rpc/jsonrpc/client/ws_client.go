@@ -14,9 +14,9 @@ import (
 
 	amino "github.com/tendermint/go-amino"
 
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	"github.com/tendermint/tendermint/libs/service"
-	types "github.com/tendermint/tendermint/rpc/jsonrpc/types"
+	tmrand "github.com/franono/tendermint/libs/rand"
+	"github.com/franono/tendermint/libs/service"
+	types "github.com/franono/tendermint/rpc/jsonrpc/types"
 )
 
 const (
@@ -502,7 +502,7 @@ func (c *WSClient) readRoutine() {
 		// because they are implemented as responses with the subscribe request's
 		// ID. According to the spec, they should be notifications (requests
 		// without IDs).
-		// https://github.com/tendermint/tendermint/issues/2949
+		// https://github.com/franono/tendermint/issues/2949
 		// c.mtx.Lock()
 		// if _, ok := c.sentIDs[response.ID.(types.JSONRPCIntID)]; !ok {
 		// 	c.Logger.Error("unsolicited response ID", "id", response.ID, "expected", c.sentIDs)

@@ -12,7 +12,7 @@ import (
 	golang_proto "github.com/golang/protobuf/proto"
 	_ "github.com/golang/protobuf/ptypes/duration"
 	_ "github.com/golang/protobuf/ptypes/timestamp"
-	merkle "github.com/tendermint/tendermint/crypto/merkle"
+	merkle "github.com/franono/tendermint/crypto/merkle"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

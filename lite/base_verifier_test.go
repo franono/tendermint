@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/tendermint/tendermint/crypto/tmhash"
-	lerr "github.com/tendermint/tendermint/lite/errors"
-	"github.com/tendermint/tendermint/types"
+	"github.com/franono/tendermint/crypto/tmhash"
+	lerr "github.com/franono/tendermint/lite/errors"
+	"github.com/franono/tendermint/types"
 )
 
 func TestBaseCert(t *testing.T) {

@@ -8,15 +8,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/merkle"
-	"github.com/tendermint/tendermint/crypto/tmhash"
-	"github.com/tendermint/tendermint/libs/bits"
-	tmbytes "github.com/tendermint/tendermint/libs/bytes"
-	tmmath "github.com/tendermint/tendermint/libs/math"
-	tmproto "github.com/tendermint/tendermint/proto/types"
-	tmversion "github.com/tendermint/tendermint/proto/version"
-	"github.com/tendermint/tendermint/version"
+	"github.com/franono/tendermint/crypto"
+	"github.com/franono/tendermint/crypto/merkle"
+	"github.com/franono/tendermint/crypto/tmhash"
+	"github.com/franono/tendermint/libs/bits"
+	tmbytes "github.com/franono/tendermint/libs/bytes"
+	tmmath "github.com/franono/tendermint/libs/math"
+	tmproto "github.com/franono/tendermint/proto/types"
+	tmversion "github.com/franono/tendermint/proto/version"
+	"github.com/franono/tendermint/version"
 )
 
 const (

@@ -9,9 +9,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/tendermint/tendermint/crypto/merkle"
-	tmmath "github.com/tendermint/tendermint/libs/math"
-	tmproto "github.com/tendermint/tendermint/proto/types"
+	"github.com/franono/tendermint/crypto/merkle"
+	tmmath "github.com/franono/tendermint/libs/math"
+	tmproto "github.com/franono/tendermint/proto/types"
 )
 
 const (

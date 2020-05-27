@@ -6,16 +6,16 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/consensus"
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/libs/log"
-	mempl "github.com/tendermint/tendermint/mempool"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/proxy"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/state/txindex"
-	"github.com/tendermint/tendermint/types"
+	cfg "github.com/franono/tendermint/config"
+	"github.com/franono/tendermint/consensus"
+	"github.com/franono/tendermint/crypto"
+	"github.com/franono/tendermint/libs/log"
+	mempl "github.com/franono/tendermint/mempool"
+	"github.com/franono/tendermint/p2p"
+	"github.com/franono/tendermint/proxy"
+	sm "github.com/franono/tendermint/state"
+	"github.com/franono/tendermint/state/txindex"
+	"github.com/franono/tendermint/types"
 )
 
 const (

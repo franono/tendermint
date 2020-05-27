@@ -9,13 +9,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/libs/service"
+	"github.com/franono/tendermint/libs/log"
+	"github.com/franono/tendermint/libs/service"
 
-	abcicli "github.com/tendermint/tendermint/abci/client"
-	"github.com/tendermint/tendermint/abci/example/code"
-	abciserver "github.com/tendermint/tendermint/abci/server"
-	"github.com/tendermint/tendermint/abci/types"
+	abcicli "github.com/franono/tendermint/abci/client"
+	"github.com/franono/tendermint/abci/example/code"
+	abciserver "github.com/franono/tendermint/abci/server"
+	"github.com/franono/tendermint/abci/types"
 )
 
 const (

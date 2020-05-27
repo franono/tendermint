@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tendermint/tendermint/p2p"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	rpctypes "github.com/tendermint/tendermint/rpc/jsonrpc/types"
+	"github.com/franono/tendermint/p2p"
+	ctypes "github.com/franono/tendermint/rpc/core/types"
+	rpctypes "github.com/franono/tendermint/rpc/jsonrpc/types"
 )
 
 // NetInfo returns network info.

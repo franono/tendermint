@@ -8,14 +8,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tendermint/tendermint/crypto/merkle"
-	tmbytes "github.com/tendermint/tendermint/libs/bytes"
-	service "github.com/tendermint/tendermint/libs/service"
-	lite "github.com/tendermint/tendermint/lite2"
-	rpcclient "github.com/tendermint/tendermint/rpc/client"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	rpctypes "github.com/tendermint/tendermint/rpc/jsonrpc/types"
-	"github.com/tendermint/tendermint/types"
+	"github.com/franono/tendermint/crypto/merkle"
+	tmbytes "github.com/franono/tendermint/libs/bytes"
+	service "github.com/franono/tendermint/libs/service"
+	lite "github.com/franono/tendermint/lite2"
+	rpcclient "github.com/franono/tendermint/rpc/client"
+	ctypes "github.com/franono/tendermint/rpc/core/types"
+	rpctypes "github.com/franono/tendermint/rpc/jsonrpc/types"
+	"github.com/franono/tendermint/types"
 )
 
 var errNegOrZeroHeight = errors.New("negative or zero height")

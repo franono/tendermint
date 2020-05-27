@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/tendermint/tendermint/libs/bits"
+	"github.com/franono/tendermint/libs/bits"
 )
 
 const (

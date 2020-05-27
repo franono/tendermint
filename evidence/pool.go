@@ -7,11 +7,11 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	clist "github.com/tendermint/tendermint/libs/clist"
-	"github.com/tendermint/tendermint/libs/log"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/store"
-	"github.com/tendermint/tendermint/types"
+	clist "github.com/franono/tendermint/libs/clist"
+	"github.com/franono/tendermint/libs/log"
+	sm "github.com/franono/tendermint/state"
+	"github.com/franono/tendermint/store"
+	"github.com/franono/tendermint/types"
 )
 
 const (

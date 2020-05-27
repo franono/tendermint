@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tendermint/tendermint/lite2/provider"
-	"github.com/tendermint/tendermint/types"
+	"github.com/franono/tendermint/lite2/provider"
+	"github.com/franono/tendermint/types"
 )
 
 type Mock struct {

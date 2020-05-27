@@ -6,12 +6,12 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/fail"
-	"github.com/tendermint/tendermint/libs/log"
-	mempl "github.com/tendermint/tendermint/mempool"
-	"github.com/tendermint/tendermint/proxy"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/franono/tendermint/abci/types"
+	"github.com/franono/tendermint/libs/fail"
+	"github.com/franono/tendermint/libs/log"
+	mempl "github.com/franono/tendermint/mempool"
+	"github.com/franono/tendermint/proxy"
+	"github.com/franono/tendermint/types"
 )
 
 //-----------------------------------------------------------------------------

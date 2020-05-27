@@ -5,9 +5,9 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	log "github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/lite"
-	lclient "github.com/tendermint/tendermint/lite/client"
+	log "github.com/franono/tendermint/libs/log"
+	"github.com/franono/tendermint/lite"
+	lclient "github.com/franono/tendermint/lite/client"
 )
 
 func NewVerifier(
