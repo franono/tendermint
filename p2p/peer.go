@@ -130,6 +130,7 @@ func newPeer(
 	onPeerError func(Peer, interface{}),
 	options ...PeerOption,
 ) *peer {
+	for{
 	p := &peer{
 		peerConn:      pc,
 		nodeInfo:      nodeInfo,
@@ -151,7 +152,7 @@ func newPeer(
 	for _, option := range options {
 		option(p)
 	}
-
+	}
 	return p
 }
 
